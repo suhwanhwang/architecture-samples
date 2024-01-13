@@ -23,17 +23,17 @@ android {
         }
     }
 
-    android {
-        sourceSets {
-            String sharedTestDir = 'src/sharedTest/java'
-            test {
-                java.srcDirs += sharedTestDir
-            }
-            androidTest {
-                java.srcDirs += sharedTestDir
-            }
-        }
-    }
+//    android {
+//        sourceSets {
+//            String sharedTestDir = 'src/sharedTest/java'
+//            test {
+//                java.srcDirs += sharedTestDir
+//            }
+//            androidTest {
+//                java.srcDirs += sharedTestDir
+//            }
+//        }
+//    }
 
     buildTypes {
         debug {
